@@ -49,3 +49,15 @@ lista = [1, 5]
 print(x is lista)
 print(x is y)
 print(x is 4)
+
+#################################################
+cadena = input("Captura una cadena por favor")
+print(cadena)
+
+entero = input("Capture un número entero")
+print(entero)
+print(int(entero))
+
+flotante = input("Capture un número flotante")
+print(flotante)
+print(int(flotante))
