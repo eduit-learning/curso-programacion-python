@@ -51,13 +51,16 @@ print(x is y)
 print(x is 4)
 
 #################################################
-cadena = input("Captura una cadena por favor")
+cadena = input("Captura una cadena por favor\n")
 print(cadena)
 
-entero = input("Capture un número entero")
+entero = input("Capture un número enteron\n")
 print(entero)
 print(int(entero))
 
-flotante = input("Capture un número flotante")
+flotante = input("Capture un número flotante\n")
 print(flotante)
-print(int(flotante))
+if flotante.isnumeric() == False:
+    print("El valor proporcionado no es numérico")
+else:
+    print(float(flotante))

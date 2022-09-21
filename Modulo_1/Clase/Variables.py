@@ -18,7 +18,7 @@ print(n)
 n = m + 10
 print(n)
 
-n = n + 25
+n = n + 25# esto es similar a: n += 25
 print(n)
 
 nota_1 = 2
@@ -46,6 +46,9 @@ print(1.1 + 2.2)
 real = 1.1 + 2.2  # real es un float
 print(real)# Representación aproximada de 3.3
 print(f'{real:.2f}')
+print(f'{diez} - "Es el valor de una variable"')
+cadena = "Esto e suna cadena"
+print(f"{cadena} - Es el valor de una 'variable'")
 
 boolean = True
 print(boolean)

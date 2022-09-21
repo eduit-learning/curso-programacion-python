@@ -5,7 +5,7 @@ if x < 20:
 valores = [1, 3, 4, 8]
 if 5 in valores:
     print('está en valores')
-print('fin')
+    print('fin')
 
 resultado = None
 x = 10
@@ -19,7 +19,7 @@ print(resultado)
 x = 28
 if x < 0:
     print(f'{x} es menor que 0')
-elif x > 0:
+elif x > 0:#else { if(x > 0) {...}} ||| else if(x > 0){...}
     print(f'{x} es mayor que 0')
 else:
     print('x es 0')
@@ -46,7 +46,7 @@ valores = [5, 1, 9, 2, 7, 4]
 encontrado = False
 indice = 0
 longitud = len(valores)
-while not encontrado and indice < longitud:
+while not encontrado and indice < longitud: ##"not encontrado" es lo mismo que "encontrado == False"
     valor = valores[indice]
     if valor == 2:
         encontrado = True
@@ -73,6 +73,18 @@ if encontrado:
     print(f'El elemento 2 ha sido encontrado en el índice {indice}')
 else:
     print('El elemento 2 no se encuentra en la lista de valores')
+
+print("Acá*************************************************")
+indice = 0
+longitud = len(valores)
+while indice < longitud:
+    valor = valores[indice]
+    if valor == 2:
+        print("Se encontró el número 2 y se rompe el ciclo")
+        break
+    else:
+        print(indice)
+        indice += 1
 
 
 ###############################################################################
