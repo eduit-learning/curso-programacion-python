@@ -84,6 +84,7 @@ while indice < longitud:
         break
     else:
         print(indice)
+        #continue
         indice += 1
 
 
