@@ -66,15 +66,17 @@ while indice < longitud:
     valor = valores[indice]
     if valor == 2:
         encontrado = True
+        print("Adios vaquero****************************************************")
         break
     else:
+        print(indice)
+        #continue
         indice += 1
 if encontrado:
     print(f'El elemento 2 ha sido encontrado en el índice {indice}')
 else:
     print('El elemento 2 no se encuentra en la lista de valores')
 
-print("Acá*************************************************")
 indice = 0
 longitud = len(valores)
 while indice < longitud:
@@ -89,7 +91,11 @@ while indice < longitud:
 
 
 ###############################################################################
-nums = [4, 78, 9, 84]
+nums = [4, 78, 9, 84, 23, 25]
+
+print(nums[0])
+print(nums[1])
+
 for n in nums:
     print(n)
 
@@ -105,7 +111,8 @@ valores = {'A': 4, 'E': 3, 'I': 1, 'O': 0}
 for k, v in valores.items():
     print('k=', k, ', v=', v)
 
-for i in range(11):
+#En otros lenguajes de programación tenemos: for(int i = 0; i < 10; i++) --- Python no soporta este tipo de sentencias
+for i in range(101): #Este for es lo mismo que un for tradicional como: for(int i = 0; i < 101; i++)
     print(i)
 
 coleccion = [2, 4, 5, 7, 8, 9, 3, 4]
@@ -114,6 +121,7 @@ for e in coleccion:
         break
     print(e)
 
+print("Acá*************************************************")
 coleccion = [2, 4, 5, 7, 8, 9, 3, 4]
 for e in coleccion:
     if e % 2 != 0:
@@ -125,5 +133,5 @@ numeros = [1, 2, 4, 3, 5, 8, 6]
 for n in numeros:
     if n == 3:
         break
-else:
-    print('No se encontró el número 3')
+    else:
+        print('No se encontró el número 3')
