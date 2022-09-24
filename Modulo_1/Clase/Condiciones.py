@@ -1,7 +1,7 @@
 x = 17
 if x < 20:
     print('x es menor que 20')
-
+    
 valores = [1, 3, 4, 8]
 if 5 in valores:
     print('está en valores')

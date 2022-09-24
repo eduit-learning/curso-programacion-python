@@ -1,15 +1,15 @@
-numeros = 1, 2, 3, 4, 5
+numeros = (1, 2, 3, 4, 5)
 elementos = 3, 'a', 8, 7.2, 'hola'
 tup = 1, ['a', 'e', 'i', 'o', 'u'], 8.9, 'hola'
 
 # Aquí, a, b y c no son una tupla, sino tres argumentos con
 # los que se llama a la función "una_funcion"
-una_funcion(a, b, c)
+#una_funcion(a, b, c)
 
 # Aquí, a, b y c son tres elementos de una tupla. Esta tupla,
 # es el único argumento con el que se invoca a la 
 # función "una_funcion"
-una_funcion((a, b, c))
+#una_funcion((a, b, c))
 
 #######################################################################33 - Cómo acceder a los elementos de una tupla
 tupla = ('a', 'b', 'd')

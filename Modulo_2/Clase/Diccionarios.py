@@ -71,17 +71,17 @@ for i in d.items():
     print(i)
 
 d = {'uno': 1, 'dos': 2}
-print(d.setdefault('uno', 1.0))
-print(d.setdefault('tres', 3))
-d.setdefault('cuatro')
+print(d.setdefault('uno', 1.0))#Esto es equivalente a: g.get('uno', 1.0)
+print(d.setdefault('tres', 3))#Esto es equivalente a: g.get('uno', 1.0)
+d.setdefault('cuatro')#Esto es equivalente a: g.get('cuatro')
 print(d)
 
 ############################################################################################ - Modificar
 d = {'uno': 1, 'dos': 2}
 print(d)
 
-d['uno'] = 1.0
-print(d)
+d['tres'] = 1.0
+print(d['uno'])
 
 ############################################################################################# - Eliminar
 d = {'uno': 1, 'dos': 2, 'tres': 3, 'cuatro': 4, 'cinco': 5}
@@ -91,10 +91,10 @@ print(d.pop('uno'))
 print(d)
 
 # Trata de eliminar una clave con pop() que no existe
-print(d.pop(6))
+print(d.pop(6))#Esto genera una excepción porque la llave no existe
 
 # Elimina un elemento con popitem()
-print(d.popitem())
+print(d.popitem())#Esto elimina del último al primero. Elimina el último elemento de la diccionario
 print(d)
 
 # Elimina un elemento con del
@@ -102,7 +102,7 @@ del d['tres']
 print(d)
 
 # Trata de eliminar una clave con del que no existe
-del d['seis']
+del d['seis']#Esto no genera una excepción
 
 # Borra todos los elementos del diccionario
 d.clear()
@@ -117,7 +117,7 @@ print('uno' in d)
 print(1 in d)
 print(1 not in d)
 
-# Intenta eliminar la clave 1 si existe
+# Elimina la clave 1 si existe
 if 1 in d:
     del d[1]    
 print(d)

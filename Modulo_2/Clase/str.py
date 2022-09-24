@@ -48,10 +48,10 @@ print(is_empty(str))
 print(is_empty(s))
 
 d['a'] = 1
-t = tuple('a')
+t = tuple('a')#Esto genera un error. Las tuplas son inmutables
 l.append('a')
 str = 'a'
-s.add('a')
+s.add('a')#Esto genera un error. Las cadenas son inmutables
 
 print(is_empty(d))
 print(is_empty(t))
@@ -67,12 +67,12 @@ print(nombre_completo)
 
 suma = 1 + 2
 print(suma)
-res = 'El resultado de 1 + 2 es: ' + suma #Error solo se puede concatenar cadenas
+#res = 'El resultado de 1 + 2 es: ' + suma #Error solo se puede concatenar cadenas
 
 suma = 1 + 2
 print(suma)
-res = 'El resultado de 1 + 2 es: ' + str(suma)
-print(res)
+#res = 'El resultado de 1 + 2 es: ' + str(suma)
+#print(res)
 
 #Format
 nombre = 'Pedro'
@@ -88,21 +88,22 @@ print('{} {}, ¿cómo estás?'.format(var2, var1))
 
 var1 = 'Pedro'
 var2 = 'Hola'
-print('{var2} {var1}, ¿cómo estás?'.format(var1=var1, var2=var2))
+print('{var2} {var1}, ¿cómo estás?'.format(var2=var1, var1=var2))
 
 var1 = 'Pedro'
 var2 = 'Hola'
-print('{1} {0}, ¿cómo estás?'.format(var1, var2))
+print('{0} {1}, ¿cómo estás?'.format(var1, var2))
 
 #A partir de Python 3.6
 nombre = 'Pedro'
 print(f'Hola {nombre}')
 
-cadenas = ['Hola', 'j2logo', ',', '¿cómo', 'estás?']
-print(' '.join(cadenas))
+
+cadenas = ['Hola', 'a todos', ',', '¿cómo', 'estás?']
+print('abc'.join(cadenas))
 
 numeros = ['1', '2', '3']
-print(', '.join(numeros))
+print('**'.join(numeros))
 
 #################################################################################33 - Replace
 dir_name = 'S2A_MSIL1C_20190106T105431_N0207_R051_T30SXH_20190106T112304'
@@ -110,25 +111,27 @@ new_dir_name = dir_name.replace('MSIL1C', 'MSIL2A')
 print(new_dir_name)
 
 aes = 'aaaaaa'
-nueva = aes.replace('a', 'b', 3)
+nueva = aes.replace('a', 'b', 2)
 print(nueva)
 
 #################################################################################33 - Eliminar espacios en blanco
-hola = ' \t\t\n\tHola \n '
+hola = ' \t\t\n\tHo la \n '
 print(hola)
 
 hola_limpio = hola.strip()
 print(hola_limpio)
 
+
 texto = ' hola mundo hola \ni'
 print(texto.strip(' oahl'))
-print(texto.strip(' \nioahl'))
+#print(texto.strip(' \nioahl'))
 
 hola = ' hola '
 print(hola.rstrip())
 print(hola.lstrip())
 
 #################################################################################33 - Mayúsculas y minúsculas
+
 hola = 'Hola python'
 hola_upper = hola.upper()
 print(hola)
@@ -139,12 +142,14 @@ hola_lower = hola.lower()
 print(hola)
 print(hola_lower)
 
+
 print('hola python. ¿te gusta python?'.capitalize())
 
 hola = 'Hola Python. ¿Te gusta Python?'
 hola_swaped = hola.swapcase()
 print(hola)
 print(hola_swaped)
+
 
 hola = 'hola pythonista. ¿te gusta python?'
 hola_title = hola.title()
@@ -158,11 +163,13 @@ print('Hola'.islower())
 print('hola'.islower())
 
 #################################################################################33 - Split
+
 print('  Me    gusta \t\nPython     '.split())
 print('  Me    gusta \t\nPython     '.split(' '))
 print('1,2,3'.split(sep=','))
 print('1, 2, 3'.split(sep=', '))
 print('1,,2,,,3'.split(','))
 
+print("Acá******************************************************************************************")
 print('Me gusta Python'.split(maxsplit=1))
 print('1, 2, 3, 4, 5'.split(sep=', ', maxsplit=2))
