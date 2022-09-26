@@ -54,9 +54,8 @@ print(alphabet)
 
 #Escribir un programa que pida al usuario una palabra y muestre si es un palíndromo.
 word = input("Introduce una palabra: ")
-reversed_word = word
 word = list(word)
-reversed_word = list(reversed_word)
+reversed_word = list(word)
 reversed_word.reverse()
 if word == reversed_word:
     print("Es un palíndromo")
@@ -186,5 +185,3 @@ while opcion != '6':
             if valor['preferente']:
                 print(clave, valor['nombre'])
     opcion = input('Menú de opciones\n(1) Añadir cliente\n(2) Eliminar cliente\n(3) Mostrar cliente\n(4) Listar clientes\n(5) Listar clientes preferentes\n(6) Terminar\nElige una opción:')
-
-    
