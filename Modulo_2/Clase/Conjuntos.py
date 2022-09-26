@@ -1,5 +1,8 @@
 # Crea un conjunto con una serie de elementos entre llaves
 # Los elementos repetidos se eliminan
+#[] -> Lista
+#() -> Tupla
+#{key:value, key:value, ..., key:value}
 c = {1, 3, 2, 9, 3, 1}
 print(c)
 
@@ -50,10 +53,11 @@ print(mi_conjunto)
 
 # Trata de eliminar el elemento 7 (no existe) con remove()
 # Lanza la excepción KeyError
-print(mi_conjunto.remove(7))#Error
+#print(mi_conjunto.remove(7))#Error porque no existe el elemento 7
 
 # Trata de eliminar el elemento 7 (no existe) con discard()
 # No hace nada
+
 mi_conjunto.discard(7)
 print(mi_conjunto)
 
@@ -68,6 +72,7 @@ print(mi_conjunto)
 mi_conjunto = set([1, 2, 5, 3, 1, 5])
 len(mi_conjunto)
 
+
 mi_conjunto = set([1, 2, 5, 3, 1, 5])
 print(1 in mi_conjunto)
 print(6 in mi_conjunto)
@@ -77,6 +82,7 @@ print(2 not in mi_conjunto)
 #Unión
 a = {1, 2, 3, 4}
 b = {2, 4, 6, 8}
+
 print(a | b)
 
 #Intersección
@@ -107,9 +113,10 @@ print(a < b)  # Ojo al operador < sin el =
 print(a <= b)
 
 #Conjuntos disjuntos
+print("Acá*******************************************************************************")
 a = {1, 2}
 b = {1, 2, 3, 4}
-print(a.isdisjoint(b))
+print(a.isdisjoint(b))#Son disjuntos cuando no tienen un elemento en común
 
 a = {1, 2}
 b = {3, 4}

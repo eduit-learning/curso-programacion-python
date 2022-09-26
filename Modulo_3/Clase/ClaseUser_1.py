@@ -1,5 +1,5 @@
 #Antes de empezar con este médulo primero se debe crear un virtual environment
-#1. Primero para saber en qué venv stoy puedo ejecutar
+#1. Primero para saber en qué venv estoy puedo ejecutar
 # import sys
 # print(sys.prefix)
 #2. Si queremos visualizar los paquetes que tenemos instalados antes de virtualenv podemos ejecutar "pip list"
