@@ -14,6 +14,3 @@
 #Construir una función que permita hacer búsqueda de inmuebles en función de un presupuesto dado.
 # La función recibirá como entrada la lista de inmuebles y un precio, y devolverá otra lista con
 # los inmuebles cuyo precio sea menor o igual al proporcionado. Debe hacerlo con clases.
-
-
-#
