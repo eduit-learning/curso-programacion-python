@@ -45,8 +45,70 @@ class User:
     #    else:
     #        print("El nombre de usuario y/o contraseña proporcionados son incorrectos")
 
+    def __add__(self, o: object) -> str:
+        return f'{self.name} - {o.name}'
+    
+    def __gt__(self, o: object) -> bool:
+        if(self.name > o.name):
+            return True
+        return False
+    
+    def __lt__(self, o: object) -> bool:
+        if(self.name < o.name):
+            return True
+        return False
+    
+    def __eq__(self, o: object) -> bool:
+        if(self.name == o.name):
+            return True
+        return False
+
 
 u1 = User('Abraham', 'abraham@hotmail.com', '2222222222', 'Admin123')
 print(u1.name)
 u1.login() 
 u1.login('abraham@hotmail.com', 'Admin123')
+
+u2 = User('Pedro', 'pedro@hotmail.com', '3333333333', 'Admin123')
+print(u1 + u2)
+print(u1 > u2)
+print(u1 < u2)
+print(u1 == u2)
+u2.name = 'Abraham'
+print(u1 == u2)
+
+#   Operator	Magic Method
+#   +	__add__(self, other)
+#   –	__sub__(self, other)
+#   *	__mul__(self, other)
+#   /	__truediv__(self, other)
+#   //	__floordiv__(self, other)
+#   %	__mod__(self, other)
+#   **	__pow__(self, other)
+#   >>	__rshift__(self, other)
+#   <<	__lshift__(self, other)
+#   &	__and__(self, other)
+#   |	__or__(self, other)
+#   ^	__xor__(self, other)
+
+#   Operator	Magic Method
+#   <	__lt__(self, other)
+#   >	__gt__(self, other)
+#   <=	__le__(self, other)
+#   >=	__ge__(self, other)
+#   ==	__eq__(self, other)
+#   !=	__ne__(self, other)
+
+#   Operator	Magic Method
+#   -=	__isub__(self, other)
+#   +=	__iadd__(self, other)
+#   *=	__imul__(self, other)
+#   /=	__idiv__(self, other)
+#   //=	__ifloordiv__(self, other)
+#   %=	__imod__(self, other)
+#   **=	__ipow__(self, other)
+#   >>=	__irshift__(self, other)
+#   <<=	__ilshift__(self, other)
+#   &=	__iand__(self, other)
+#   |=	__ior__(self, other)
+#   ^=	__ixor__(self, other)
