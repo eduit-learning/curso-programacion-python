@@ -8,6 +8,8 @@ os.system('cls')
 #Con dir() puede ver todas las propiedades de un objeto en python
 print("***Comando 1***")
 print(dir(dt))
+print("**********************************++")
+print(dir(dt.datetime))
 print("***Comando 2***")
 print(f"\n\nEl año máximo en Python es: {dt.MAXYEAR}")
 print("***Comando 3***")
@@ -19,6 +21,7 @@ print(dt.datetime.now())
 
 print("\n\n***Comando 4***")
 currentDateTime = dt.datetime.now()
+#currentDateTime = dt.datetime.today()
 print(currentDateTime)
 print(f'Año: {currentDateTime.year}')
 print(f'Mes: {currentDateTime.month}')
@@ -83,7 +86,7 @@ print(dt.datetime(year=2022, month=1, day=1, hour=18,minute=32,second=30))
 print('Formato de fecha')
 currentDate = dt.datetime.now()
 print(currentDate.strftime("%B %d, %Y"))
-print(currentDate.strftime("%B %d, %Y %H:%M"))
+print(currentDate.strftime("%B %d, %Y - %H:%M"))
 #Puedes validar los diferentes formatos en la siguiente liga: https://strftime.org/
 
 print("Fecha a partir de una cadena")
@@ -131,6 +134,16 @@ else:
     locale.setlocale(locale.LC_ALL, 'de_DE.ISO8859-1')
 
 print("#####German#####")
+print("Date: " + date_time.strftime("%B-%d-%Y"))
+print("Time: " + date_time.strftime("%X"))
+print("Weekday: " + date_time.strftime("%A"))
+
+if platform == 'win32':
+    locale.setlocale(locale.LC_ALL, 'es_MX')
+else:
+    locale.setlocale(locale.LC_ALL, 'es_MX.ISO8859-1')
+
+print("#####Español#####")
 print("Date: " + date_time.strftime("%B-%d-%Y"))
 print("Time: " + date_time.strftime("%X"))
 print("Weekday: " + date_time.strftime("%A"))

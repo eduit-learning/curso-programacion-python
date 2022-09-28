@@ -88,3 +88,7 @@ print('\n\nInmuebles disponibles...\n')
 for i in searcher.search_best_price(1250000):
     print(f'Precio: ${i.precio:,.2f}\nAño: {i.anio}\nMetros: {i.metros:,.2f}\nHabitaciones: {i.habitaciones}\n¿Tiene garage?: {i.garage}\nZona: {i.zona}\n') if i != None else print()
 #El if en linea siempre debe llevar la estructura: operación[si condición es verdadera] if condición else operación [si condición es falso]
+
+print(dir(searcher))
+print('**************************************')
+print(dir(SearchEngine))
