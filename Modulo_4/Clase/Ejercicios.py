@@ -1,3 +1,6 @@
+#Liga de las grabaciones
+#https://grupoeduitp-my.sharepoint.com/:f:/g/personal/sesionesenlinea_grupoeduit_com/EvrZMF0RMwlMoIb9sWUz7X4B4ZbYff42BHgn-XBwe0ZYYQ?e=THYHYf
+
 #Escribir una función que determine si un año es bisiesto o no
 
 #Escribir una función que reciba como parámetro una fecha (Day/Month/Year) puede ser datetime.now y
