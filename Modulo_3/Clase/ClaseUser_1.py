@@ -20,7 +20,7 @@ class User:
     #se abre y se cierra con 3 comillas dobles (también pueden ser comillas simples). Se puede colocar
     #justo después de una clase o justo después de funciones y sirven para documentar el código.
 
-    name = None
+    name = 'Not assigned yet'
     email = None
     phoneNumber = None
     password = None
@@ -55,7 +55,7 @@ class User:
             print("El nombre de usuario y/o contraseña proporcionados son incorrectos")
 
     ##La función debajo de este comentario está "comentada", esto es porque debido a que en Python las variables
-    ##y los parámetros no son tipados (pueden recibir cualquier tipo de dato) la sobrecarga de métodos solo
+    ##y los parámetros no son tipados (pueden recibir cualquier tipo de dato) la sobrecarga de métodos no
     ##funciona cuando la cantidad de parámetros es distinta, cuando la cantidad de parámetros son iguales
     ##la "sobrecarga" del método sobrescribe al método anterior. En este caso el método de abajo sobrescribe al
     ##método de arriba
@@ -69,4 +69,7 @@ class User:
 #Debo llamar al constructor con parámetros porque el que no recibe parámetros fue sobreescrito.
 u1 = User('Abraham','abraham@hotmail.com','2222222222','Admin123')
 print(u1.name)
-u1.login('abraham@hotmail.com','Admin123')
+print(User.name)
+User.name = 'Abraham'
+print(User.name)
+u1.login('abraham@hotmail.com','Admin1234')

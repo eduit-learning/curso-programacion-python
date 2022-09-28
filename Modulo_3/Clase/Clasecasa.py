@@ -1,0 +1,2 @@
+class casa:
+    name = ''

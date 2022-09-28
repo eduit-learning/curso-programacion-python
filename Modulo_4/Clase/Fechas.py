@@ -1,5 +1,7 @@
 import os
 import datetime as dt
+from sys import platform
+import locale
 
 os.system('cls')
 
@@ -108,3 +110,27 @@ print("Eastern Time -4")
 print(dt.datetime.now(easternTime));
 print("Aplicar otra zona horaria a un datetime con zona horaria definida")
 print(dt.datetime.now(centralTime).astimezone(pacificTime));
+
+
+print("\n\nLocale")
+if platform == 'win32':
+    locale.setlocale(locale.LC_ALL, 'en_US')
+else:
+    locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
+
+date_time = dt.datetime(2022, 1, 15, 20, 40, 50)
+
+print("#####English US#####")
+print("Date: " + date_time.strftime("%B-%d-%Y"))
+print("Time: " + date_time.strftime("%X"))
+print("Weekday: " + date_time.strftime("%A"))
+
+if platform == 'win32':
+    locale.setlocale(locale.LC_ALL, 'de_DE')
+else:
+    locale.setlocale(locale.LC_ALL, 'de_DE.ISO8859-1')
+
+print("#####German#####")
+print("Date: " + date_time.strftime("%B-%d-%Y"))
+print("Time: " + date_time.strftime("%X"))
+print("Weekday: " + date_time.strftime("%A"))

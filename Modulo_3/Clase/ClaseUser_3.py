@@ -64,18 +64,18 @@ class User:
         return False
 
 
-u1 = User('Abraham', 'abraham@hotmail.com', '2222222222', 'Admin123')
-print(u1.name)
-u1.login() 
-u1.login('abraham@hotmail.com', 'Admin123')
-
-u2 = User('Pedro', 'pedro@hotmail.com', '3333333333', 'Admin123')
-print(u1 + u2)
-print(u1 > u2)
-print(u1 < u2)
-print(u1 == u2)
-u2.name = 'Abraham'
-print(u1 == u2)
+##u1 = User('Abraham', 'abraham@hotmail.com', '2222222222', 'Admin123')
+##print(u1.name)
+##u1.login() 
+##u1.login('abraham@hotmail.com', 'Admin123')
+##
+##u2 = User('Pedro', 'pedro@hotmail.com', '3333333333', 'Admin123')
+##print(u1 + u2)
+##print(u1 > u2)
+##print(u1 < u2)
+##print(u1 == u2)
+##u2.name = 'Abraham'
+##print(u1 == u2)
 
 #   Operator	Magic Method
 #   +	__add__(self, other)

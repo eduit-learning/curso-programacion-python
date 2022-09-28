@@ -30,5 +30,5 @@ class C(A, B): #Siempre tendrán mayor importancia los métodos de la primera cl
 
 c1 = C('Clase c','Esta es la clase C')
 c1.printData()
-#c1.printAData()
-#c1.printBData()
+c1.printAData()
+c1.printBData()

@@ -48,3 +48,5 @@ User.phoneNumber = '3333333333'
 u1.phoneNumber = '4444444444'
 print(User.phoneNumber)#Este es un atributo de clase
 print(u1.phoneNumber)#Este es un atributp de instancia
+u2 = User('Pedro', 'pedro@hotmail.com', '2222222222', 'Admin123')
+print(u2.phoneNumber)
