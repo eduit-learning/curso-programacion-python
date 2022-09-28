@@ -26,7 +26,8 @@ def cuadrado(n):
 
 
 print(aplica_funcion_lista(cuadrado, [1, 2, 3, 4]))
-print(aplica_funcion_lista(lambda x: x*x, [1, 2, 3, 4]))
+
+print(aplica_funcion_lista(lambda n: n*n, [1, 2, 3, 4]))#lambda parámetro: return
 
 # Escribir una función que reciba una frase y devuelva un diccionario con las palabras que contiene y su longitud.
 # "Hola a todos equipo de VW" -> {"Hola":4, "a":1, "todos":5, ...}
@@ -43,7 +44,8 @@ def length_words(sentence):
     words = sentence.split()
     # Map aplica la función del primer parámetro a los objetos del segundo parámetro
     lengths = map(len, words)
-    print(tuple(zip(('A', 'B', 'Z'), (1, 2, 3))))
+    #print(list(lengths))
+    print(tuple(zip(('A', 'B', 'C'), (1, 2, 3, 4))))
     return dict(zip(words, lengths)) # zip realiza el join de dos tuplas
 
 
@@ -69,6 +71,7 @@ class Inmueble:
         self.precio = precio
 
 
+
 class SearchEngine:
     def __init__(self, buildingList: list) -> None:
         self.buildingList = buildingList
@@ -83,4 +86,5 @@ Inmueble(2010, 101.12, 2, False, 'B', 1200000)])
 
 print('\n\nInmuebles disponibles...\n')
 for i in searcher.search_best_price(1250000):
-    print(f'Precio: ${i.precio:,.2f}\nAño: {i.anio}\nMetros: {i.metros:,.2f}\nHabitaciones: {i.habitaciones}\n¿Tiene garage?: {i.garage}\nZona: {i.zona}\n') if i != None else True
+    print(f'Precio: ${i.precio:,.2f}\nAño: {i.anio}\nMetros: {i.metros:,.2f}\nHabitaciones: {i.habitaciones}\n¿Tiene garage?: {i.garage}\nZona: {i.zona}\n') if i != None else print()
+#El if en linea siempre debe llevar la estructura: operación[si condición es verdadera] if condición else operación [si condición es falso]
