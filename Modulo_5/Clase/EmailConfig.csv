@@ -1,0 +1,309 @@
+PartitionKey,RowKey,Timestamp,EventId,EventId@type,Language,Language@type,Subject,Subject@type
+000,04033300-6AB2-486D-B0C2-CE9AB09A4762,2022-02-09T18:35:10.8502228Z,104,Int32,es,String,Las notificaciones de tu plan estan por agotarse,String
+000,2F272EAB-0486-68F8-3CE2-FEE8E5414110,2022-07-06T16:25:38.226864Z,105,Int32,es,String,Recuperar contraseña,String
+000,392B872D-D9A6-438F-8CA5-9A4D4EAEA271,2021-12-14T20:19:08.5750799Z,102,Int32,es,String,Confirmación subscripción portal Arkik,String
+000,4762ef2a-7fed-4381-af78-5b6d70f3dd22,2022-09-05T18:28:20.9271028Z,107,Int32,es,String,El equipo de soporte de Arkik ha solicitado acceso al sistema,String
+000,53BCC202-6A24-4E3D-88F3-E77644ADAF7C,2021-12-14T20:18:22.2630603Z,101,Int32,es,String,Invitación para unirse a la plataforma Arkik,String
+000,57C62193-456A-4D9D-B31B-9F384700F340,2021-12-15T16:27:47.3939229Z,103,Int32,es,String,Subscríbete a uno de nuestros planes y comienza a evolucionar tu negocio.,String
+000,658863D9-91F9-1494-5BF2-E25C2543200A,2022-07-06T16:25:54.9362559Z,105,Int32,en,String,Password recovery,String
+000,820CC4FC-5E09-8817-5505-56F8578BA30C,2022-08-04T17:14:16.3198196Z,106,Int32,en,String,Arkik portal subscription payment,String
+000,B7D77088-86B0-4703-BB59-825A74B11D6D,2022-09-19T17:46:34.5432232Z,108,Int32,es,String,Acceso al portal Admin concedido - {{subject_replace}},String
+000,DCCDF7EB-50A2-46DC-A338-DB90698EA13B,2022-09-19T17:47:33.8436888Z,108,Int32,en,String,Access to the Admin portal granted - {{subject_replace}},String
+000,ECA27A84-71C7-7153-8020-6290DDE1988F,2022-08-04T17:14:35.8646307Z,106,Int32,es,String,Solicitud de pago para su subscripción al portal Arkik,String
+000,f9b67c13-8015-4d73-bde1-69715c32361f,2022-09-05T18:28:50.8294134Z,107,Int32,en,String,Arkik’s support team has requested system access,String
+002,0b381044-ae0f-4073-9792-a367b0286dd4,2022-02-03T23:08:41.4557902Z,9,Int32,en,String,Reused product for new batch,String
+002,153609E3-902F-7246-9925-A7F358B691FB,2022-07-14T21:32:17.6097897Z,101,Int32,es,String,Invitación para unirse a la plataforma Arkik,String
+002,15f65da4-865b-4b0d-b711-b179673c52ae,2022-02-03T23:08:41.8745522Z,4,Int32,es,String,La carga ha finalizado inusualmente,String
+002,31a24bfb-9e39-447a-bb19-9916634bcdd2,2022-02-03T23:08:42.8410005Z,2,Int32,en,String,The order has been modified,String
+002,3DA8BBB4-106F-0E71-172B-4F02A650033C,2022-06-30T00:34:22.6806008Z,101,Int32,en,String,Invitation to join the Arkik platform,String
+002,400a4aa1-0ea3-4a12-896e-0380b6e529ba,2022-02-03T23:08:43.7025089Z,5,Int32,en,String,A shutdown has been detected,String
+002,4906b925-4a03-4929-b5d7-1621a78ef0fe,2022-02-03T23:08:41.2599029Z,5,Int32,es,String,Se detecto un paro en la planta,String
+002,496dda34-2393-4af2-8217-5b3b703afc2b,2022-02-03T23:08:43.0119036Z,2,Int32,es,String,Se ha modificado la orden,String
+002,55edf09a-852c-4391-9429-e8f7de8f180b,2022-02-03T23:08:42.6750945Z,10,Int32,es,String,Reporte de progreso,String
+002,59758703-56fc-4121-affb-909453bd3416,2022-02-03T23:08:43.3557068Z,1,Int32,es,String,Se ha creado una nueva orden,String
+002,63DFBDB8-7AFD-A5C8-187F-DB3F1A29A109,2022-07-14T21:32:35.0468896Z,103,Int32,es,String,Subscríbete a uno de nuestros planes y comienza a evolucionar tu negocio.,String
+002,69844085-7d22-4a71-b0e0-e4eb02a374d4,2022-02-03T23:08:43.1878027Z,6,Int32,es,String,Una carga ha sido cancelada,String
+002,6F4F8609-662E-A6D6-85FF-AAB0F33B6F02,2022-06-30T00:34:22.4987073Z,102,Int32,en,String,Arkik portal subscription confirmation,String
+002,80CB6DE3-B785-4D2B-A7BD-BECFAEE1F3BB,2022-09-09T18:58:39.9573691Z,11,Int32,en,String,Consumption notification,String
+002,8A630DC5-5F4B-4FF4-9932-1FCE9F7854AD,2022-09-08T23:58:08.5393066Z,11,Int32,es,String,Notificación de consumo,String
+002,960277e3-a446-497f-aeaf-c38778e48511,2022-02-03T23:08:44.2172156Z,7,Int32,es,String,La primera carga ha finalizado,String
+002,9e89e08f-84ff-4a58-8296-84919238007c,2022-02-03T23:08:41.6266936Z,4,Int32,en,String,The load has been finished unusually,String
+002,B45B1FE7-22CB-6D54-5152-903FF452A2C1,2022-06-30T00:34:22.8504993Z,103,Int32,en,String,Subscribe to one of our plans and start evolving your business.,String
+002,CCD42B0E-2600-611C-853A-467BDD587975,2022-06-30T00:34:21.6052369Z,104,Int32,es,String,Las notificaciones de tu plan estan por agotarse,String
+002,E03EB5D0-97B2-5980-0AED-90B61E618E6F,2022-06-30T00:34:22.3238113Z,104,Int32,en,String,Your plan notifications are about to run out,String
+002,EAB769C0-7BF8-0400-0188-05C1BAA496CB,2022-07-14T21:32:45.3070633Z,102,Int32,es,String,Confirmación subscripción portal Arkik,String
+002,a9d2318f-c6af-4683-b22d-c363637c103c,2022-02-03T23:08:42.4912016Z,6,Int32,en,String,A ticket has been cancelled,String
+002,c6101f6e-e0ba-4b66-98ba-85ba40fda39f,2022-02-03T23:08:41.0720112Z,7,Int32,en,String,The first load has been dispatched,String
+002,c69dc7d6-8373-4544-b935-0a0ebc462a09,2022-02-03T23:08:43.5366035Z,10,Int32,en,String,Schedule progress report,String
+002,d8f4ba62-c878-4985-8c37-8832a7b1a95a,2022-02-03T23:08:43.868414Z,8,Int32,en,String,Remaining loads has been dispatched,String
+002,e0e81dc7-9ba6-4a1d-8d29-e4a52fc1caa0,2022-02-03T23:08:42.0764368Z,8,Int32,es,String,Las cargas restantes han terminado,String
+002,e9f64966-0e4f-4504-a2f1-aa0bb93984d5,2022-02-03T23:08:44.3791237Z,1,Int32,en,String,A new order has been placed,String
+002,eaf51e76-1849-4718-8435-587ff1474dc8,2022-02-03T23:08:44.5450273Z,9,Int32,es,String,Producto reutilizado en nuevo lote,String
+002,ef6c614b-3124-404e-bd17-c016ebd57302,2022-02-03T23:08:44.0453136Z,3,Int32,en,String,Out of stock,String
+002,fb1723ab-13e7-4349-beca-c533bcde9cb2,2022-02-03T23:08:42.2913157Z,3,Int32,es,String,Material no disponible,String
+010,03806d9e-8c4f-4531-9a2f-e3ca09627e40,2022-05-09T21:11:02.3965426Z,9,Int32,en,String,Reused product for new batch,String
+010,1A9B65CD-4455-96B8-8B4D-0483ED18505B,2022-07-14T21:32:56.9074757Z,102,Int32,es,String,Confirmación subscripción portal Arkik,String
+010,227e3a8d-5531-48ba-804a-61fba16c44bc,2022-05-09T21:11:02.694374Z,1,Int32,en,String,A new order has been placed,String
+010,2bd917a7-590e-4325-b2d9-fee44cf7e96f,2022-05-09T21:11:02.5334652Z,2,Int32,es,String,Se ha modificado la orden,String
+010,334058e0-2fe8-42b0-ab06-eb8a2a35d5c3,2022-05-09T21:11:02.3775529Z,7,Int32,en,String,The first load has been dispatched,String
+010,3ad3b6eb-f118-44f2-bf40-e6e842fd3d79,2022-05-09T21:11:02.5934317Z,10,Int32,en,String,Schedule progress report,String
+010,3c0a8f1f-b127-43a0-b0f0-6e2b14f4b4e0,2022-05-09T21:11:02.6144196Z,5,Int32,en,String,A shutdown has been detected,String
+010,4d054fe4-26ad-44a0-9aaf-5b360ad7b8f1,2022-05-09T21:11:02.4934878Z,10,Int32,es,String,Reporte de progreso,String
+010,4e94b2bf-2872-414f-af3a-a8a8bb12d741,2022-05-09T21:11:02.4615056Z,3,Int32,es,String,Material no disponible,String
+010,55dbc094-8d22-4c84-a590-924ec1724c51,2022-05-09T21:11:02.574443Z,1,Int32,es,String,Se ha creado una nueva orden,String
+010,600B32F4-92F0-1F7B-2E99-0867FE318D86,2022-06-30T00:35:44.8229369Z,104,Int32,en,String,Your plan notifications are about to run out,String
+010,60EFEF00-698A-1191-3840-90F45054907A,2022-07-14T21:33:04.9868884Z,101,Int32,es,String,Invitación para unirse a la plataforma Arkik,String
+010,63a1d021-3ee4-47e7-a598-a428cad1ec5e,2022-05-09T21:11:02.5134769Z,2,Int32,en,String,The order has been modified,String
+010,6435506A-87A5-7704-9FFF-F6F1763C210D,2022-06-30T00:35:45.2606775Z,103,Int32,en,String,Subscribe to one of our plans and start evolving your business.,String
+010,68eacf83-80f1-49ef-92a2-5f6502593f70,2022-05-09T21:11:02.441517Z,8,Int32,es,String,Las cargas restantes han terminado,String
+010,79469e19-c6bb-4f31-9ae3-0c8f6fbf7ae1,2022-05-09T21:11:02.4744988Z,6,Int32,en,String,A ticket has been cancelled,String
+010,D669289B-A477-817D-99F6-DDA05A056A38,2022-06-30T00:35:45.1037696Z,101,Int32,en,String,Invitation to join the Arkik platform,String
+010,E9B1BE8D-8D01-79F6-41CC-5D5857088B08,2022-06-30T00:35:44.9648523Z,102,Int32,en,String,Arkik portal subscription confirmation,String
+010,EC2C3622-6C44-9C39-A03F-BB59BB9802C3,2022-07-14T21:33:12.8134441Z,103,Int32,es,String,Subscríbete a uno de nuestros planes y comienza a evolucionar tu negocio.,String
+010,F285733B-7D34-9660-90C7-E5CA98948610,2022-06-30T00:35:44.1703232Z,104,Int32,es,String,Las notificaciones de tu plan estan por agotarse,String
+010,a13c5acb-c408-43e1-a7dd-6a5ad4f2c925,2022-05-09T21:11:02.3875473Z,5,Int32,es,String,Se detecto un paro en la planta,String
+010,ab118776-7311-46c9-8880-b0c79c2bfc26,2022-05-09T21:11:02.5554544Z,6,Int32,es,String,Una carga ha sido cancelada,String
+010,b75a728e-af6d-441c-924c-3783b8aa4d67,2022-05-09T21:11:02.4235275Z,4,Int32,es,String,La carga ha finalizado inusualmente,String
+010,bba0f67a-afb6-4be2-afc9-5be38d043649,2022-05-09T21:11:02.4055369Z,4,Int32,en,String,The load has been finished unusually,String
+010,c7dfa2a9-689c-49a8-8cba-2d667cb163c3,2022-05-09T21:11:02.6533976Z,3,Int32,en,String,Out of stock,String
+010,ce83eeba-e7a0-4183-b29e-e86f59fcda6c,2022-05-09T21:11:02.7143635Z,9,Int32,es,String,Producto reutilizado en nuevo lote,String
+010,dd7ff669-034a-458e-a179-5eb373109d9e,2022-05-09T21:11:02.6344082Z,8,Int32,en,String,Remaining loads has been dispatched,String
+010,e58ebc19-d8b4-4de4-9676-8a502af907c1,2022-05-09T21:11:02.6753853Z,7,Int32,es,String,La primera carga ha finalizado,String
+011,0472d1a5-12cc-4cfe-af03-da15352d7a42,2022-05-12T16:16:53.7027537Z,2,Int32,es,String,Se ha modificado la orden,String
+011,0b1d8e80-8846-4e96-8895-d213899974f3,2022-05-12T16:16:53.6807665Z,2,Int32,en,String,The order has been modified,String
+011,155F31A2-1103-6889-4E3E-17E46DB20155,2022-06-30T00:36:42.9914803Z,104,Int32,es,String,Las notificaciones de tu plan estan por agotarse,String
+011,1dbc50ad-1ce1-4c68-88cc-4bd3ec7cc288,2022-05-12T16:16:53.6257979Z,8,Int32,es,String,Las cargas restantes han terminado,String
+011,29cd389e-c367-4ac9-8068-6bc9e033a017,2022-05-12T16:16:53.5628343Z,9,Int32,en,String,Reused product for new batch,String
+011,360b86b6-4e8b-4659-87c0-920fc77f49fb,2022-05-12T16:16:53.8316803Z,1,Int32,en,String,A new order has been placed,String
+011,36bc5c68-094b-404f-8d16-84226dac1dc9,2022-05-12T16:16:53.5758265Z,4,Int32,en,String,The load has been finished unusually,String
+011,3936F7E4-668E-2133-42C7-A3BE87A56A05,2022-06-30T00:36:43.5981208Z,104,Int32,en,String,Your plan notifications are about to run out,String
+011,43f21fc4-aa36-48b4-88e0-fe16428f4db1,2022-05-12T16:16:53.7996984Z,8,Int32,en,String,Remaining loads has been dispatched,String
+011,54282B54-24AC-3614-157A-B125E1374B9B,2022-07-14T21:33:19.4616692Z,101,Int32,es,String,Invitación para unirse a la plataforma Arkik,String
+011,554604BF-132B-6045-3A55-289D31892426,2022-07-14T21:33:25.3773101Z,103,Int32,es,String,Subscríbete a uno de nuestros planes y comienza a evolucionar tu negocio.,String
+011,5a75d631-9cee-4030-a9dc-9b7f3d476816,2022-05-12T16:16:53.7187451Z,6,Int32,es,String,Una carga ha sido cancelada,String
+011,5e5b88d9-40a9-43c9-ae73-e806608ba347,2022-05-12T16:16:53.8456726Z,9,Int32,es,String,Producto reutilizado en nuevo lote,String
+011,5ffa43bb-696d-4f64-89cd-fefa620409a3,2022-05-12T16:16:53.8096933Z,3,Int32,en,String,Out of stock,String
+011,60c0a6a4-99b8-4205-9c1f-93a5fec8c054,2022-05-12T16:16:53.5508407Z,5,Int32,es,String,Se detecto un paro en la planta,String
+011,6F34FA14-5139-5E6D-5AEF-1B5C50FB5989,2022-06-30T00:36:43.9419177Z,101,Int32,en,String,Invitation to join the Arkik platform,String
+011,6c2496b6-2ea4-4f1b-8102-a487843fe5e0,2022-05-12T16:16:53.7397337Z,1,Int32,es,String,Se ha creado una nueva orden,String
+011,74932725-0f27-471d-8c71-3189057008e0,2022-05-12T16:16:53.6158036Z,4,Int32,es,String,La carga ha finalizado inusualmente,String
+011,80C04532-4F77-7A18-6AC1-3173CC234847,2022-06-30T00:36:43.8010011Z,102,Int32,en,String,Arkik portal subscription confirmation,String
+011,852C28D6-8429-8353-4AE5-5D1D54C0063B,2022-07-14T21:33:34.0943614Z,102,Int32,es,String,Confirmación subscripción portal Arkik,String
+011,8c9233db-7cef-47ec-bb4c-05ea7fcdda99,2022-05-12T16:16:53.7597218Z,10,Int32,en,String,Schedule progress report,String
+011,DD2F4C44-720B-9F0C-3C06-A09F04EE12C1,2022-06-30T00:36:44.0868316Z,103,Int32,en,String,Subscribe to one of our plans and start evolving your business.,String
+011,b967abfc-82fe-458c-a559-a21e9e8ac428,2022-05-12T16:16:53.6587792Z,10,Int32,es,String,Reporte de progreso,String
+011,bd8b0c7b-dbf7-4dec-a0f6-c8254ef5b9be,2022-05-12T16:16:53.8196878Z,7,Int32,es,String,La primera carga ha finalizado,String
+011,c31a5b70-7515-4e8d-9f91-2b0120551954,2022-05-12T16:16:53.5408464Z,7,Int32,en,String,The first load has been dispatched,String
+011,dad831a2-bf45-4df7-884d-4b0ca303e436,2022-05-12T16:16:53.7807096Z,5,Int32,en,String,A shutdown has been detected,String
+011,f163ade5-b175-4a7d-b83d-c6b52b6c3dba,2022-05-12T16:16:53.6487857Z,6,Int32,en,String,A ticket has been cancelled,String
+011,f33932eb-4918-47c3-9348-0b738c61e6da,2022-05-12T16:16:53.6377917Z,3,Int32,es,String,Material no disponible,String
+030,099ebbd7-c126-484e-97da-e7ed67c4be03,2022-05-11T21:17:22.6511552Z,1,Int32,en,String,A new order has been placed,String
+030,15ca83fe-d4eb-4a54-b2da-fcf0de8ebd51,2022-05-11T21:17:22.6121768Z,3,Int32,en,String,Out of stock,String
+030,192e847b-6589-4667-9120-08a28c5aa8fd,2022-05-11T21:17:22.6721427Z,9,Int32,es,String,Producto reutilizado en nuevo lote,String
+030,19c2e8bd-9c3e-43ce-a751-5782ad88279d,2022-05-11T21:17:22.5142326Z,1,Int32,es,String,Se ha creado una nueva orden,String
+030,312F7F89-2BD0-7991-A12A-F1DC8E8E25E2,2022-06-30T00:37:36.0210688Z,102,Int32,en,String,Arkik portal subscription confirmation,String
+030,378d1644-2682-46f0-ad74-947865d276e9,2022-05-11T21:17:21.9085782Z,2,Int32,en,String,The order has been modified,String
+030,3B535164-932D-3C44-5910-084A4F826182,2022-07-14T21:33:43.5140114Z,102,Int32,es,String,Confirmación subscripción portal Arkik,String
+030,3e86c4b9-1a7b-45d8-bf96-3ca8f9592d30,2022-05-11T21:17:22.1674303Z,2,Int32,es,String,Se ha modificado la orden,String
+030,450c0a39-453c-4fab-9eaf-1233ac0b56ad,2022-05-11T21:17:22.6331645Z,7,Int32,es,String,La primera carga ha finalizado,String
+030,538c636a-6769-4891-8f12-ac1000c3ce72,2022-05-11T21:17:21.1040367Z,3,Int32,es,String,Material no disponible,String
+030,66c2f15e-490f-44d4-b59d-d569619dba04,2022-05-11T21:17:21.829623Z,10,Int32,es,String,Reporte de progreso,String
+030,68C82CCB-69DB-1E05-8133-DF063C4218DF,2022-06-30T00:37:36.7336468Z,103,Int32,en,String,Subscribe to one of our plans and start evolving your business.,String
+030,749e04fd-d37c-402f-b625-03b09db437ce,2022-05-11T21:17:22.5432173Z,10,Int32,en,String,Schedule progress report,String
+030,7ba11125-4900-4f60-b10f-4b8d41149e7c,2022-05-11T21:17:19.2221097Z,7,Int32,en,String,The first load has been dispatched,String
+030,85cf9344-3bd5-4ed3-8529-50a40d751c8d,2022-05-11T21:17:19.7867879Z,9,Int32,en,String,Reused product for new batch,String
+030,9689331d-6351-4b39-bc4f-d2c744696359,2022-05-11T21:17:21.012089Z,8,Int32,es,String,Las cargas restantes han terminado,String
+030,9d62d1a0-b38f-40f1-b200-26d18d810985,2022-05-11T21:17:21.4818215Z,6,Int32,en,String,A ticket has been cancelled,String
+030,A3FB8648-983C-939B-0A4F-D85281BA9DBD,2022-06-30T00:37:36.1729788Z,101,Int32,en,String,Invitation to join the Arkik platform,String
+030,B2B50130-0562-49F4-1A13-ED70AAAC8CCF,2022-06-30T00:37:35.8621631Z,104,Int32,en,String,Your plan notifications are about to run out,String
+030,D19593B4-3275-4D00-29F1-74B007CF0D93,2022-07-14T21:33:53.9640776Z,101,Int32,es,String,Invitación para unirse a la plataforma Arkik,String
+030,D3934822-2BCA-A106-2A5E-896A7BEC554D,2022-07-14T21:33:59.2890545Z,103,Int32,es,String,Subscríbete a uno de nuestros planes y comienza a evolucionar tu negocio.,String
+030,EB7B0FAC-5003-69F2-A4BB-72EDE773713C,2022-06-30T00:37:35.2605188Z,104,Int32,es,String,Las notificaciones de tu plan estan por agotarse,String
+030,a73f4027-2a5c-4630-8566-0c3b4d7c1d2a,2022-05-11T21:17:22.1974134Z,6,Int32,es,String,Una carga ha sido cancelada,String
+030,a8ef2ef5-c90b-4274-9bde-13b5dd63f708,2022-05-11T21:17:22.5941883Z,8,Int32,en,String,Remaining loads has been dispatched,String
+030,ac1bf26a-a93e-4a5a-84a1-517b90d8af40,2022-05-11T21:17:20.0536353Z,4,Int32,en,String,The load has been finished unusually,String
+030,e2cb56fc-d4f5-4001-9469-f9e0453cda3f,2022-05-11T21:17:22.5751981Z,5,Int32,en,String,A shutdown has been detected,String
+030,e6e2a2a7-f889-4e61-afef-94b5ed88f5a9,2022-05-11T21:17:19.2910707Z,5,Int32,es,String,Se detecto un paro en la planta,String
+030,fd0fcef3-4a4c-4263-b53a-85d0961ed056,2022-05-11T21:17:20.7492417Z,4,Int32,es,String,La carga ha finalizado inusualmente,String
+034,032d3d20-2795-40c9-815b-f96511622bd3,2022-08-11T21:00:25.3391356Z,6,Int32,es,String,Una carga ha sido cancelada,String
+034,051f103c-1add-4a1a-993b-b1cc0533607d,2022-08-11T21:00:25.299159Z,2,Int32,es,String,Se ha modificado la orden,String
+034,1b530ab6-e6e1-4205-a3f3-4ce57870d027,2022-08-11T21:00:25.2781716Z,2,Int32,en,String,The order has been modified,String
+034,1b91ff72-910c-41e0-82c1-e673b4ca6de4,2022-08-11T21:00:24.8853966Z,5,Int32,es,String,Se detecto un paro en la planta,String
+034,393bd1fc-ca64-4ebc-b649-0c8f9ad482a6,2022-08-11T21:00:25.3991011Z,1,Int32,es,String,Se ha creado una nueva orden,String
+034,3c2cd2dd-e951-4d9b-8028-78fc9afcc463,2022-08-11T21:00:25.1292564Z,3,Int32,es,String,Material no disponible,String
+034,4af3f8fc-f437-4671-bbc1-971bca1ce491,2022-08-11T21:00:25.2281992Z,104,Int32,en,String,Your plan notifications are about to run out,String
+034,4b872c46-70b8-473b-ab9a-c050b9f0c1ce,2022-08-11T21:00:25.143248Z,6,Int32,en,String,A ticket has been cancelled,String
+034,503398f8-ea79-4dc4-b408-49b203d55f48,2022-08-11T21:00:24.91538Z,105,Int32,es,String,Recuperar contraseña,String
+034,56c49019-23a8-4c46-9447-d9f21dbe24c1,2022-08-11T21:00:25.5210317Z,3,Int32,en,String,Out of stock,String
+034,5780c8f6-1581-46fa-8f97-dcfd8e25a890,2022-08-11T21:00:25.0083259Z,103,Int32,es,String,Subscríbete a uno de nuestros planes y comienza a evolucionar tu negocio.,String
+034,5ad8067f-0acf-481a-a9dc-53c2af72868b,2022-08-11T21:00:25.0293135Z,102,Int32,es,String,Confirmación subscripción portal Arkik,String
+034,78518ecb-ecf3-4eac-80c9-251badd39535,2022-08-11T21:00:25.1812266Z,105,Int32,en,String,Password recovery,String
+034,7c04f809-7429-4850-8e04-190a97ea8e52,2022-08-11T21:00:24.9803425Z,4,Int32,es,String,La carga ha finalizado inusualmente,String
+034,8180ce79-351e-4f64-acfe-1fd03d5e161f,2022-08-11T21:00:25.3201473Z,101,Int32,en,String,Invitation to join the Arkik platform,String
+034,8dbaaf45-70f2-4336-9ef1-7d4ffbe4b592,2022-08-11T21:00:24.9703477Z,101,Int32,es,String,Invitación para unirse a la plataforma Arkik,String
+034,998dd0cd-37e9-4e2b-9dac-134796a42c6b,2022-08-11T21:00:25.5919918Z,1,Int32,en,String,A new order has been placed,String
+034,9b5e0e5a-6057-46c3-82a9-29f4e45bd036,2022-08-11T21:00:25.154242Z,10,Int32,es,String,Reporte de progreso,String
+034,a850e707-6d55-4108-aedf-ca14a3d47e2d,2022-08-11T21:00:25.4900505Z,8,Int32,en,String,Remaining loads has been dispatched,String
+034,ad85c776-b260-4a0a-8ef7-795c6f4cf2f8,2022-08-11T21:00:24.8594113Z,7,Int32,en,String,The first load has been dispatched,String
+034,b6a01a84-2365-431c-8903-e03d1f316c58,2022-08-11T21:00:25.0862809Z,8,Int32,es,String,Las cargas restantes han terminado,String
+034,bb07a7c3-3a3e-4c01-b1fe-269110df7dea,2022-08-11T21:00:25.620975Z,9,Int32,es,String,Producto reutilizado en nuevo lote,String
+034,be11de97-020a-4ac9-93fd-15e20b7a8768,2022-08-11T21:00:25.4590677Z,5,Int32,en,String,A shutdown has been detected,String
+034,c177ac3e-c228-4650-8a0f-2aab7f470c13,2022-08-11T21:00:24.9553561Z,4,Int32,en,String,The load has been finished unusually,String
+034,c7a618e0-dfe1-47f5-9371-6b76b642116d,2022-08-11T21:00:24.9903367Z,106,Int32,es,String,Solicitud de pago para su subscripción al portal Arkik,String
+034,cbc1e541-9b59-4241-a380-05f920ecb8e5,2022-08-11T21:00:25.1982168Z,103,Int32,en,String,Subscribe to one of our plans and start evolving your business.,String
+034,d9010a48-f9d2-46de-a417-8c487daa7529,2022-08-11T21:00:25.3791142Z,104,Int32,es,String,Las notificaciones de tu plan estan por agotarse,String
+034,e7440a3e-dc87-4eb0-98da-7cf914a7e83a,2022-08-11T21:00:25.431083Z,10,Int32,en,String,Schedule progress report,String
+034,f6f69684-feef-4bba-875a-1cce4231276a,2022-08-11T21:00:24.9383662Z,9,Int32,en,String,Reused product for new batch,String
+034,f95d5044-ddc6-4e2b-b0ff-1ce15c89979a,2022-08-11T21:00:25.0562991Z,102,Int32,en,String,Arkik portal subscription confirmation,String
+034,f9a4b201-4c03-418e-8b20-33a76635cb4d,2022-08-11T21:00:25.5630086Z,7,Int32,es,String,La primera carga ha finalizado,String
+034,fd9e5190-5054-4c5c-b799-a17665591a11,2022-08-11T21:00:25.3591252Z,106,Int32,en,String,Arkik portal subscription payment,String
+040,1129a465-6f10-43c7-ac22-5ba7d87ccc32,2022-04-26T15:42:43.760527Z,7,Int32,es,String,La primera carga ha finalizado,String
+040,1905398F-56AF-9CAF-6016-501D294B5D50,2022-06-30T00:39:05.1352906Z,104,Int32,en,String,Your plan notifications are about to run out,String
+040,1b0c5199-f164-40a0-b2fc-7f8d4e31170a,2022-04-26T15:42:43.5836295Z,8,Int32,es,String,Las cargas restantes han terminado,String
+040,2DDAC877-5D51-0B28-0590-70CB0E7FA4CA,2022-06-30T00:39:05.3751486Z,102,Int32,en,String,Arkik portal subscription confirmation,String
+040,2dccced8-1fd9-44a2-a0c7-8b646722f939,2022-04-26T15:42:43.5406539Z,9,Int32,en,String,Reused product for new batch,String
+040,2ed3e107-8572-4953-9717-6ac2dacda36b,2022-04-26T15:42:43.5566444Z,4,Int32,en,String,The load has been finished unusually,String
+040,40c1f504-76b4-49e1-bfcf-db603d8c9882,2022-04-26T15:42:43.6575894Z,2,Int32,es,String,Se ha modificado la orden,String
+040,46ffd1eb-9ec2-429c-aa24-7fdca8658d4b,2022-04-26T15:42:43.697564Z,6,Int32,es,String,Una carga ha sido cancelada,String
+040,4b569730-0088-4e28-ad05-5e4a8d7d3e3a,2022-04-26T15:42:43.6266042Z,10,Int32,es,String,Reporte de progreso,String
+040,51679FED-1E7C-0967-5EEA-120D537974DC,2022-06-30T00:39:03.9859714Z,104,Int32,es,String,Las notificaciones de tu plan estan por agotarse,String
+040,51e1ba57-75bf-4fcb-9f06-c385705ce181,2022-04-26T15:42:43.7285455Z,5,Int32,en,String,A shutdown has been detected,String
+040,5E2F8B99-A3C9-5C03-2F70-63FD7B9B25BA,2022-07-14T21:34:09.7471159Z,102,Int32,es,String,Confirmación subscripción portal Arkik,String
+040,5f971fac-ff9b-436d-bfab-ca9815543f8e,2022-04-26T15:42:43.5246633Z,5,Int32,es,String,Se detecto un paro en la planta,String
+040,7f83b4e6-4fc1-4b9b-9ad5-670f6ce1b583,2022-04-26T15:42:43.5986203Z,3,Int32,es,String,Material no disponible,String
+040,874deca9-8f66-463b-b450-caf972614a00,2022-04-26T15:42:43.641596Z,2,Int32,en,String,The order has been modified,String
+040,919cfb14-00bf-4907-be4c-ec6db2ad9745,2022-04-26T15:42:43.6116128Z,6,Int32,en,String,A ticket has been cancelled,String
+040,98decf98-a8b1-41ee-878b-9d064f11ac35,2022-04-26T15:42:43.4976785Z,7,Int32,en,String,The first load has been dispatched,String
+040,B6ACF35F-377C-1526-3EAD-862AF2409780,2022-06-30T00:39:05.9538065Z,103,Int32,en,String,Subscribe to one of our plans and start evolving your business.,String
+040,B7361197-02FC-533C-83D7-3132890E28F4,2022-06-30T00:39:05.6050125Z,101,Int32,en,String,Invitation to join the Arkik platform,String
+040,BA312C3D-60D1-9FCE-A143-EB2892114979,2022-07-14T21:34:17.5167038Z,101,Int32,es,String,Invitación para unirse a la plataforma Arkik,String
+040,D01E96D0-8D4E-2757-9351-769D81717F38,2022-07-14T21:34:23.4703238Z,103,Int32,es,String,Subscríbete a uno de nuestros planes y comienza a evolucionar tu negocio.,String
+040,b20d0e52-1b00-4151-a624-ba9c7799ea5c,2022-04-26T15:42:43.7515321Z,3,Int32,en,String,Out of stock,String
+040,ba1a9f8d-7b10-4741-ae51-a5178e8c3dc9,2022-04-26T15:42:43.7715212Z,1,Int32,en,String,A new order has been placed,String
+040,c0d6fb90-2c9c-4732-9330-be7108e6fe25,2022-04-26T15:42:43.7075586Z,1,Int32,es,String,Se ha creado una nueva orden,String
+040,cf654e0e-003c-4958-ae68-f2adf236a2ba,2022-04-26T15:42:43.5676385Z,4,Int32,es,String,La carga ha finalizado inusualmente,String
+040,cf74b645-f077-4bb9-bcb9-ebbf0e1032a6,2022-04-26T15:42:43.7395391Z,8,Int32,en,String,Remaining loads has been dispatched,String
+040,ed75d6e8-7b43-4dc1-a682-5bfa82b9e61b,2022-04-26T15:42:43.7855128Z,9,Int32,es,String,Producto reutilizado en nuevo lote,String
+040,f7dec1c5-2932-4ec2-a634-62c6733ca0b5,2022-04-26T15:42:43.7185517Z,10,Int32,en,String,Schedule progress report,String
+042,04730ccc-9d91-4405-986d-aa53e52c167d,2022-05-03T20:28:27.6982137Z,9,Int32,es,String,Producto reutilizado en nuevo lote,String
+042,0604ab26-3943-40a8-b034-eafef7bccd75,2022-05-03T20:28:21.7575757Z,9,Int32,en,String,Reused product for new batch,String
+042,117e1c0a-f666-47db-b043-ff80601d68ea,2022-05-03T20:28:22.106378Z,4,Int32,en,String,The load has been finished unusually,String
+042,18acf75c-e302-4bcf-871b-f2d91329da10,2022-05-03T20:28:26.6837876Z,3,Int32,en,String,Out of stock,String
+042,1d008a3c-04a0-4cdd-95da-681a5a0914ac,2022-05-03T20:28:27.027593Z,7,Int32,es,String,La primera carga ha finalizado,String
+042,2C60B319-7864-84A5-55CA-7F36EE073637,2022-07-14T21:34:30.5043295Z,103,Int32,es,String,Subscríbete a uno de nuestros planes y comienza a evolucionar tu negocio.,String
+042,46A855E3-5181-27CA-34D2-048D668003DD,2022-06-30T00:39:58.0539496Z,104,Int32,es,String,Las notificaciones de tu plan estan por agotarse,String
+042,52142327-46ad-4c3f-9199-02594a22f73b,2022-05-03T20:28:22.4881619Z,4,Int32,es,String,La carga ha finalizado inusualmente,String
+042,544FDBEE-0982-0239-381F-17C8B41E04EB,2022-07-14T21:34:39.0454795Z,102,Int32,es,String,Confirmación subscripción portal Arkik,String
+042,618ac759-e1f8-4028-bf8d-2f005c261c85,2022-05-03T20:28:23.6694922Z,6,Int32,en,String,A ticket has been cancelled,String
+042,6dab82b4-aa8a-49c5-9224-144c58ee26ae,2022-05-03T20:28:23.3226893Z,3,Int32,es,String,Material no disponible,String
+042,73a199a1-16c0-4152-a97f-908d62bb5acf,2022-05-03T20:28:20.9840123Z,7,Int32,en,String,The first load has been dispatched,String
+042,7a23830f-f31d-4150-b230-afc68be22af4,2022-05-03T20:28:25.9911788Z,5,Int32,en,String,A shutdown has been detected,String
+042,81848227-3075-8D9B-97A9-FBF078767A7C,2022-06-30T00:39:59.2772251Z,101,Int32,en,String,Invitation to join the Arkik platform,String
+042,8ec7eb30-d352-43a9-8d92-c5e6537cacf4,2022-05-03T20:28:27.3634028Z,1,Int32,en,String,A new order has been placed,String
+042,9be5a75a-e37c-4377-9976-309a402f30fd,2022-05-03T20:28:24.661931Z,2,Int32,es,String,Se ha modificado la orden,String
+042,A6A96E0B-9969-4818-7E08-AF39670D4072,2022-06-30T00:39:59.6130267Z,103,Int32,en,String,Subscribe to one of our plans and start evolving your business.,String
+042,A9F910FE-85F3-50C3-A747-072C80207BAD,2022-06-30T00:39:58.6116196Z,104,Int32,en,String,Your plan notifications are about to run out,String
+042,CCDB7D47-18F1-49FC-81C1-B8811154A283,2022-07-14T21:34:45.0470716Z,101,Int32,es,String,Invitación para unirse a la plataforma Arkik,String
+042,D9A6F662-0BC9-7470-9501-240686E316C5,2022-06-30T00:39:58.8474797Z,102,Int32,en,String,Arkik portal subscription confirmation,String
+042,a9263304-0025-4f75-bfe2-a2aa60c0566c,2022-05-03T20:28:21.3488053Z,5,Int32,es,String,Se detecto un paro en la planta,String
+042,bb006a18-6ea2-465f-8d2f-0db6208604cd,2022-05-03T20:28:24.3251226Z,2,Int32,en,String,The order has been modified,String
+042,c45ac464-609c-4711-aa29-c960d92a8cf5,2022-05-03T20:28:22.82697Z,8,Int32,es,String,Las cargas restantes han terminado,String
+042,cc5701ef-f9ba-452a-a4dd-b285c300f6e6,2022-05-03T20:28:25.0027391Z,6,Int32,es,String,Una carga ha sido cancelada,String
+042,cd89c1f4-4293-478d-bba0-ec5a382cbe79,2022-05-03T20:28:25.3325521Z,1,Int32,es,String,Se ha creado una nueva orden,String
+042,d82b068b-2f12-4b8d-84cf-17d9ea37d167,2022-05-03T20:28:26.3279886Z,8,Int32,en,String,Remaining loads has been dispatched,String
+042,f64a0e97-d5cc-4c06-a724-68e2f0660a79,2022-05-03T20:28:25.6573687Z,10,Int32,en,String,Schedule progress report,String
+042,f70dd7b0-128b-40a6-ad6d-4ab1db226a91,2022-05-03T20:28:23.9933093Z,10,Int32,es,String,Reporte de progreso,String
+0mx,45BA62CC-EFF7-4CFE-B5A0-727ECCC190FF,2022-09-15T21:02:45.9423004Z,11,Int32,es,String,Notificación de consumo,String
+0mx,F131721D-846F-4082-B72E-93FBF0760C86,2022-09-15T21:01:15.5414238Z,11,Int32,en,String,Consumption notification,String
+998,0325945c-f912-40d5-ba97-5ca4fb93b1bf,2022-07-13T17:24:52.4041608Z,6,Int32,es,String,Una carga ha sido cancelada,String
+998,0cefae7d-6b6b-4a1e-a6f9-961a3006e179,2022-07-13T17:24:52.5470735Z,1,Int32,es,String,Se ha creado una nueva orden,String
+998,159114ad-a022-46c9-8a72-a9866d80a1f9,2022-07-13T17:24:52.1772996Z,8,Int32,es,String,Las cargas restantes han terminado,String
+998,16018ec2-bcd5-4266-941b-36440f292fa1,2022-07-13T17:24:52.1523148Z,102,Int32,en,String,Arkik portal subscription confirmation,String
+998,26493ff9-dc1a-48cf-9f1f-60eb0be3b28b,2022-07-13T17:24:52.2502551Z,6,Int32,en,String,A ticket has been cancelled,String
+998,35509233-f840-4ed3-a843-5cfded8f4aff,2022-07-13T17:24:52.5970433Z,5,Int32,en,String,A shutdown has been detected,String
+998,3c4cdf00-0ff6-4f3d-9c47-b8b93100366b,2022-07-13T17:24:52.1143382Z,4,Int32,es,String,La carga ha finalizado inusualmente,String
+998,4dd73c7f-0604-4a68-a3ea-d27a13555315,2022-07-13T17:24:51.7725474Z,9,Int32,en,String,Reused product for new batch,String
+998,50e10262-d3af-4282-a646-1ff8a0ee17f6,2022-07-14T21:34:55.5591028Z,102,Int32,es,String,Confirmación subscripción portal Arkik,String
+998,57fd2b27-3a1e-412c-9c0b-492cce3a6f7c,2022-07-13T17:24:52.6560071Z,1,Int32,en,String,A new order has been placed,String
+998,62fa5377-b2a0-4649-a9c1-026c263abb7b,2022-07-13T17:24:52.3082195Z,103,Int32,en,String,Subscribe to one of our plans and start evolving your business.,String
+998,64b9ea33-2bfc-4cd1-b576-96dfdf6020e5,2022-07-13T17:24:52.6100347Z,8,Int32,en,String,Remaining loads has been dispatched,String
+998,660596e7-8173-4eec-93c8-7d584b91028b,2022-07-13T17:24:52.6370194Z,7,Int32,es,String,La primera carga ha finalizado,String
+998,664a496e-aeb6-4af2-a4f8-c83dc4d6222b,2022-07-13T17:24:52.3372019Z,104,Int32,en,String,Your plan notifications are about to run out,String
+998,70c24442-95ba-47c9-a1cd-2cbf9bbff091,2022-07-13T17:24:51.6586167Z,7,Int32,en,String,The first load has been dispatched,String
+998,76ea1a22-3f60-460e-a0e8-825c16137838,2022-07-13T17:24:51.7345704Z,5,Int32,es,String,Se detecto un paro en la planta,String
+998,7b4d2249-837f-4116-850c-091ca12ab444,2022-07-13T17:24:52.196288Z,3,Int32,es,String,Material no disponible,String
+998,7f54fb84-472a-4315-ae09-b56450e2f7f5,2022-07-13T17:24:52.288232Z,105,Int32,en,String,Password recovery,String
+998,8fcb1468-4942-4456-bc63-3146ea611755,2022-07-14T21:35:01.9834548Z,101,Int32,es,String,Invitación para unirse a la plataforma Arkik,String
+998,939d2839-7e7c-42d3-8c2f-c9731ddc9a22,2022-07-13T17:24:52.3481955Z,2,Int32,en,String,The order has been modified,String
+998,95b9783c-f036-4d93-9511-246ade39f651,2022-07-14T21:35:07.2914413Z,103,Int32,es,String,Subscríbete a uno de nuestros planes y comienza a evolucionar tu negocio.,String
+998,9e8f9160-bc80-46e6-8fb5-a4bef1cd291a,2022-07-13T17:24:52.2692433Z,10,Int32,es,String,Reporte de progreso,String
+998,a8c6ad3d-3411-4e26-8e88-fc35c0e5a08c,2022-07-13T17:24:52.5680604Z,10,Int32,en,String,Schedule progress report,String
+998,b06deb08-d4da-4874-9b55-682961c00ff2,2022-07-13T17:24:51.7535589Z,105,Int32,es,String,Recuperar contraseña,String
+998,b5a9ce19-8f15-4b0b-bf7d-813f613a3116,2022-07-13T17:24:52.3661846Z,2,Int32,es,String,Se ha modificado la orden,String
+998,b83c6381-4b55-4902-8cde-891f7b492e10,2022-07-13T17:24:52.5240882Z,104,Int32,es,String,Las notificaciones de tu plan estan por agotarse,String
+998,ce05d262-d67e-4673-869a-5d00110b19b5,2022-07-13T17:24:52.6699989Z,9,Int32,es,String,Producto reutilizado en nuevo lote,String
+998,dc32c7c9-3b84-4333-a005-b3d79d1b0808,2022-07-13T17:24:52.6210287Z,3,Int32,en,String,Out of stock,String
+998,e180a9f0-64f8-4c47-866e-d8a79b754720,2022-07-13T17:24:51.7825409Z,4,Int32,en,String,The load has been finished unusually,String
+998,f49d6b8d-526a-4ddf-9396-d1becefbc5a2,2022-07-13T17:24:52.3851729Z,101,Int32,en,String,Invitation to join the Arkik platform,String
+aqa,24727645-B73A-4BF4-9645-B643C6FFFE73,2021-12-08T17:58:51.2902094Z,2,Int32,es,String,Se ha modificado la orden,String
+aqa,2FC36B63-1A9A-3795-11C1-3C36D3989E5A,2022-06-30T00:40:46.1054901Z,102,Int32,en,String,Arkik portal subscription confirmation,String
+aqa,385EDD42-872F-421E-9DF4-B01DF455E4B6,2021-12-08T17:58:51.2912094Z,6,Int32,en,String,A ticket has been cancelled,String
+aqa,392B872D-B9A6-438F-8CA5-9A4D4EAEA271,2021-12-08T17:58:51.2912094Z,9,Int32,es,String,Producto reutilizado en nuevo lote,String
+aqa,3A8193D6-9289-4F5E-ABA6-082BB58E9C87,2021-12-08T17:58:51.2912094Z,8,Int32,es,String,Las cargas restantes han terminado,String
+aqa,43BE56EC-4A5D-6C64-7EC9-A4BEB2B091CA,2022-06-30T00:40:46.3593389Z,101,Int32,en,String,Invitation to join the Arkik platform,String
+aqa,4991DA7F-92AC-3C97-1880-F2481875545C,2022-06-30T00:40:46.7471081Z,103,Int32,en,String,Subscribe to one of our plans and start evolving your business.,String
+aqa,53BCC202-6A24-4E3D-88F3-E77644ADAF7B,2021-12-08T17:58:51.2912094Z,2,Int32,en,String,The order has been modified,String
+aqa,56EE09D3-066A-49A7-B412-A44594A162A8,2021-12-08T17:58:51.2912094Z,8,Int32,en,String,Remaining loads has been dispatched,String
+aqa,57C62193-456A-489D-B31B-9F384700F340,2021-12-08T17:58:51.2912094Z,5,Int32,en,String,A shutdown has been detected,String
+aqa,616E928C-477E-13A2-08DA-35E6AD736FF7,2022-07-14T21:35:22.6647114Z,102,Int32,es,String,Confirmación subscripción portal Arkik,String
+aqa,627C8099-C360-44B7-9ECB-68B7EB52E24E,2021-12-08T17:58:51.2912094Z,4,Int32,en,String,The load has been finished unusually,String
+aqa,681AB0AA-8899-9F3D-880B-49B32FE9731B,2022-06-30T00:40:45.7726886Z,104,Int32,en,String,Your plan notifications are about to run out,String
+aqa,719C00FF-B174-478E-93A7-2895BB1183B5,2021-12-08T17:58:51.2922082Z,5,Int32,es,String,Se detecto un paro en la planta,String
+aqa,80BAC690-BD27-4F3E-94A0-D3D17FBB9B16,2022-01-17T18:03:07.1195331Z,6,Int32,es,String,Una carga ha sido cancelada,String
+aqa,89E07A47-2932-4F90-B73C-FB8FF596CAB2,2021-12-08T17:58:51.2922082Z,1,Int32,es,String,Se ha creado una nueva orden,String
+aqa,988A33AE-0239-4D60-99FB-F25BE77457B2,2021-12-08T17:58:51.2922082Z,7,Int32,es,String,La primera carga ha finalizado,String
+aqa,9893C8BB-23DD-4AA7-991A-F30928672FF8,2021-12-08T17:58:51.2922082Z,10,Int32,en,String,Schedule progress report,String
+aqa,98D3DF86-A86D-4E2D-B5EA-D1D415E5078B,2021-12-08T17:58:51.2932078Z,3,Int32,es,String,Material no disponible,String
+aqa,9F1609D0-8ED1-420C-9637-0F90847E2E73,2021-12-08T17:58:51.2932078Z,10,Int32,es,String,Reporte de progreso,String
+aqa,A5CCC832-93AF-491E-B087-EA29239CF157,2021-12-08T17:58:51.2932078Z,1,Int32,en,String,A new order has been placed,String
+aqa,BDFCCDE0-4E11-4F9E-9572-DA839848F0DD,2021-12-08T17:58:51.2932078Z,3,Int32,en,String,Out of stock,String
+aqa,C05FC6BD-0A53-2BA1-9098-E2739FD0A218,2022-07-14T21:35:29.108053Z,103,Int32,es,String,Subscríbete a uno de nuestros planes y comienza a evolucionar tu negocio.,String
+aqa,D84CA385-51F8-4EA0-A81A-BCA44853E761,2021-12-08T17:58:51.2932078Z,9,Int32,en,String,Reused product for new batch,String
+aqa,DE39F90D-0203-47EF-9F3D-880DBAE9F617,2021-12-08T17:58:51.2932078Z,4,Int32,es,String,La carga ha finalizado inusualmente,String
+aqa,E549FF87-6AF6-A0EF-0127-44A4F5530220,2022-07-14T21:35:34.2451366Z,101,Int32,es,String,Invitación para unirse a la plataforma Arkik,String
+aqa,E9C48B02-9CEC-238A-9E30-873791189CC7,2022-06-30T00:40:44.7123168Z,104,Int32,es,String,Las notificaciones de tu plan estan por agotarse,String
+aqa,FAC465E9-FCFA-4C0E-94BF-7A4B0A7E55F3,2021-12-08T17:58:51.2932078Z,7,Int32,en,String,The first load has been dispatched,String
+base,023240e2-7de6-439a-a8b3-72bb06dbece2,2022-02-03T22:51:52.5395821Z,7,Int32,en,String,The first load has been dispatched,String
+base,037d3f88-cce3-4903-ae39-16279d68ad52,2022-02-03T22:51:50.6106837Z,5,Int32,es,String,Se detecto un paro en la planta,String
+base,0F1B4591-7E75-60AF-6092-F1651DCD7178,2022-07-06T16:26:32.4676762Z,105,Int32,es,String,Recuperar contraseña,String
+base,0b60b165-d4f6-45d4-ad60-fdd0ed0307c3,2022-02-03T22:51:52.1947784Z,9,Int32,en,String,Reused product for new batch,String
+base,155e8b86-de95-4491-93d8-8d8f4a698c3c,2022-02-03T22:51:50.4417793Z,4,Int32,en,String,The load has been finished unusually,String
+base,1DF3908A-697F-2D73-18B6-BE252FF5301F,2022-07-14T21:35:40.6734868Z,101,Int32,es,String,Invitación para unirse a la plataforma Arkik,String
+base,1e569449-507f-4a7b-90d9-e062627cc719,2022-02-03T22:51:52.3626832Z,4,Int32,es,String,La carga ha finalizado inusualmente,String
+base,32E81CBD-5CA4-6FAD-5904-EFCDE1083697,2022-08-04T19:49:05.647638Z,106,Int32,es,String,Solicitud de pago para su subscripción al portal Arkik,String
+base,3D090EF3-3C9B-81A8-8FE9-C268570109D0,2022-07-14T21:35:46.4422102Z,103,Int32,es,String,Subscríbete a uno de nuestros planes y comienza a evolucionar tu negocio.,String
+base,3DE8BB72-9A6A-5BC8-492E-3BF4927887FC,2022-07-14T21:35:53.956943Z,102,Int32,es,String,Confirmación subscripción portal Arkik,String
+base,3FCE42EF-5F59-7E9D-7911-4FC4ACB81DDA,2022-06-30T00:32:01.6541706Z,102,Int32,en,String,Arkik portal subscription confirmation,String
+base,3ad3b5a4-2ce2-4fbb-84c2-85a9ff3ce0c0,2022-02-03T22:51:49.7361823Z,8,Int32,es,String,Las cargas restantes han terminado,String
+base,49bcac23-911c-4606-b347-1d3f3ffd10af,2022-02-03T22:51:51.5001748Z,3,Int32,es,String,Material no disponible,String
+base,51ffb3b5-1a85-479c-ac81-63c466ee82b9,2022-02-03T22:51:49.3903794Z,6,Int32,en,String,A ticket has been cancelled,String
+base,566c760b-7295-413f-95f2-99fa86887a7f,2022-02-03T22:51:51.6800723Z,10,Int32,es,String,Reporte de progreso,String
+base,62ABE186-169A-89E6-2B58-8A318D1702BA,2022-07-06T16:26:46.7174821Z,105,Int32,en,String,Password recovery,String
+base,87DDC78C-7E35-159B-5C3B-9B987544670F,2022-06-30T00:32:01.9469966Z,103,Int32,en,String,Subscribe to one of our plans and start evolving your business.,String
+base,8C6299CD-800B-292F-23FB-2EF0A21C9F10,2022-06-30T00:32:01.5092558Z,104,Int32,en,String,Your plan notifications are about to run out,String
+base,945fde27-f81a-4c5f-833d-73c224f587e3,2022-02-03T22:51:49.9100832Z,2,Int32,en,String,The order has been modified,String
+base,996b57b0-c814-4bd1-86a1-a7aa7092c119,2022-02-03T22:51:49.2074849Z,2,Int32,es,String,Se ha modificado la orden,String
+base,998F1A90-6FBE-3E25-739F-16F99AC24200,2022-06-30T00:32:01.7950866Z,101,Int32,en,String,Invitation to join the Arkik platform,String
+base,9e6957d4-d8c8-493d-b060-d2ecb8e2d5ba,2022-02-03T22:51:50.7905805Z,6,Int32,es,String,Una carga ha sido cancelada,String
+base,D4F709EE-2947-6104-5280-74FB61D63B59,2022-08-04T17:14:16.7895509Z,106,Int32,en,String,Arkik portal subscription payment,String
+base,E4D7FCEA-5BD3-021F-6415-8DF1CD668989,2022-06-30T00:32:00.9066127Z,104,Int32,es,String,Las notificaciones de tu plan estan por agotarse,String
+base,a0e1eece-6105-422a-9520-69f1ce275363,2022-02-03T22:51:50.956486Z,1,Int32,es,String,Se ha creado una nueva orden,String
+base,a5733a9c-d2de-4037-8a83-4a5bd3b5760b,2022-02-03T22:51:51.3012886Z,10,Int32,en,String,Schedule progress report,String
+base,b4c4b69c-0f4d-4157-936d-ecc13b8544de,2022-02-03T22:51:50.2718768Z,5,Int32,en,String,A shutdown has been detected,String
+base,dda50185-8981-4025-bc47-c09bf79d6a6c,2022-02-03T22:51:50.0929781Z,8,Int32,en,String,Remaining loads has been dispatched,String
+base,debfc5c6-2754-4212-8cae-26754be1a3a7,2022-02-03T22:51:52.0238761Z,3,Int32,en,String,Out of stock,String
+base,e6bbf42f-6f06-4436-80ba-5e25a9eda860,2022-02-03T22:51:51.1323862Z,7,Int32,es,String,La primera carga ha finalizado,String
+base,f3629ca0-a440-4b45-a862-bdc0ea91dc6d,2022-02-03T22:51:51.8519742Z,1,Int32,en,String,A new order has been placed,String
+base,fc26a29c-6c77-4ded-aae2-f99ff4fa1aa0,2022-09-05T18:22:01.5754966Z,107,Int32,en,String,Arkik’s support team has requested system access,String
+base,fc26a29c-6c77-4ded-aae2-f99ff4fa1b00,2022-09-05T18:20:53.7663303Z,107,Int32,es,String,El equipo de soporte de Arkik ha solicitado acceso al sistema,String
+base,fc26a29c-6c77-4ded-aae2-f99ff4fa1b08,2022-02-03T22:51:49.5682778Z,9,Int32,es,String,Producto reutilizado en nuevo lote,String
