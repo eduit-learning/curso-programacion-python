@@ -8,8 +8,6 @@ os.system('cls')
 locale.setlocale(locale.LC_ALL, 'es_MX')
 
 # Escribir una función que determine si un año es bisiesto o no
-
-
 def leap_year(year):
     if year % 400 == 0 or (year % 100 != 0 and year % 4 == 0):
         return True
