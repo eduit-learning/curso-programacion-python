@@ -15,6 +15,7 @@ except:
 
 try:
     customList = [1, 2, 3]
+    #x = 1/0
     print(customList[5])
 except IndexError as ex:
     print(f"Ocurrió un error al intentar acceder al índice de la lista. {ex}")

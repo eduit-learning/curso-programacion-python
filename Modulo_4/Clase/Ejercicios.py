@@ -82,17 +82,17 @@ print('\n***Ejercicio 6 - Solución 1***')
 
 def all_sundays(year):
     dtime = dt.date(year, 1, 1)  # 1 de enero del año proporcionado
-    dtime += dt.timedelta(days=6 - dtime.weekday() + 1)  # Primer lunes del año
+    dtime += dt.timedelta(days=6 - dtime.weekday())  # Primer domingo del año
     while dtime.year == year:
+        #El yield es como un return solo que lo hace en medio la ejecución. Es decir no se espera a terminar el ciclo para regresar el valor
         yield dtime
         dtime += dt.timedelta(days=7)
 
-
-print('Todos los lunes del año 2020 son: ')
+print('Todos los domingos del año 2020 son: ')
 for s in all_sundays(2020):
     print(s.strftime("%A %d de %B de %Y"))
 
-print('\n\nTodos los lunes del año 2022 son: ')
+print('\n\nTodos los domingos del año 2022 son: ')
 for s in all_sundays(2022):
     print(s.strftime("%A %d de %B de %Y"))
 
@@ -114,6 +114,7 @@ for timeZone in pytz.all_timezones:
 tz = pytz.timezone("America/Los_Angeles")
 print(dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
 print(dt.datetime.now(tz=tz).strftime('%Y-%m-%d %H:%M:%S'))
+print(dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
 os.system('pip uninstall pytz')
 
 # Escriba una función que reciba como parámetro dos fechas y muestre todas las fechas entre las dos fechas proporcionadas
@@ -136,7 +137,7 @@ for month in range(1, 13):
 
     # Sí un Sábado se presenta en la primera semana el segundo sábado se encuentra en la segunda semana
     # sino el segundo sábado debe estar en la tercera semana
-    
+    print(calendar.SATURDAY)
     if first_week[calendar.SATURDAY]:
         holi_day = second_week[calendar.SATURDAY]
     else:
