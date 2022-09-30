@@ -1,4 +1,5 @@
 import os
+from typing_extensions import final
 
 os.system('cls')
 
@@ -47,6 +48,9 @@ os.system('cls')
 #with open(r'C:\temp\EmailConfig123.csv', 'r+') as f:
 #    f.write('Mundo con r+++++++++++++++++++++++++++++++++++++++++++asd\n')
 
-with open(r'C:\temp\EmailConfig123.csv', 'r+') as f:
-    f.read()
-    f.write('Hola Mundo con r+\n')
+try:
+    with open(r'C:\temp\EmailConfig123.csv', 'r+') as f:
+        f.read()
+        f.write('Hola Mundo con r+\n')
+except Exception as ex:
+    print(f"Ocurrió un error al manipular al archivo. {ex}")

@@ -1,9 +1,10 @@
 import csv
 import os
+import re
 
 # El archivo ApplicationAuditTable.csv tiene texto separado por comas donde las columnas son:
 # PartitionKey,RowKey,Timestamp,ExecutionDate,ExecutionDate@type
-# 1.- Agrupar por PartitionKey y crear un archivo por cada grupo que sea igual e nel PartitionKey
+# 1.- Agrupar por PartitionKey y crear un archivo por cada grupo que sea igual e el PartitionKey
 # Es decir todas las filas que tengan en el partitionKey 0 deben formar un archivo, las que tengan 2 otro archivo
 # y así por cada partitionKey
 os.system('cls')
@@ -19,11 +20,12 @@ def print_progress(line, total) -> None:
     print("Procesando archivo...")
     print(f'{line} de {total} líneas procesadas')
 
-
+#https://www.w3schools.com/python/python_regex.asp patrones regex
 def process_file(path: str) -> None:
     try:
         counter = 1
         with open(path, 'r') as f:
+            #textContent = re.findall('\"(.+\n*)*\"', f.read())
             content = csv.reader(f)
             row_count = sum(1 for row in content)
             f.seek(0)
@@ -36,9 +38,9 @@ def process_file(path: str) -> None:
         print(f"Ocurrió un error al procesar el archivo: {ex}")
 
 
-print("Procesando archivo...")
-process_file(r'C:\temp\ApplicationAuditTable.csv')
-print("Finalizado")
+#print("Procesando archivo...")
+#process_file(r'C:\temp\ApplicationAuditTable.csv')
+#print("Finalizado")
 
 # 2.- El archivo ApplicationAuditTable.csv tiene texto separado por comas, obtener lo siguiente:
 # Cuantas lineas tiene?

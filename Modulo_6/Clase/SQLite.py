@@ -10,9 +10,10 @@ def execute_command(query) -> None:
         #with sqlite3.connect('test.db') as conn:
         result = conn.execute(query)
         print(f"El comando se ejecutó correctamente. {result.rowcount}")
-        conn.rollback()
+        #conn.rollback()
         conn.commit()
     except Exception as ex:
+        conn.rollback()
         raise
 
 def execute_reader(query: str) -> tuple:
@@ -28,8 +29,8 @@ query = '''CREATE TABLE COMPANY
              SALARY         REAL);'''
 #execute_command(query)
 
-query = "INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY) VALUES (2, 'Paul', 32, 'California', 20000.00 )"
-execute_command(query)
+query = "INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY) VALUES (6, 'Paul', 32, 'California', 20000.00 )"
+#execute_command(query)
 
 query = 'SELECT * from COMPANY'
 for r in execute_reader(query):

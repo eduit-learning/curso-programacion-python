@@ -40,4 +40,7 @@ query = ("INSERT INTO [dbo].[User] "
          "VALUES ('Hugo', 'Pérez Penas', 'hugo@hotmail.com', 'hugo', 'Admin123', 'MX', 'Python', 1)")
 sqlOps.execute_query(query)
 
+for i in sqlOps.execute_reader("SELECT * FROM [User]"):
+    print(i)
+
 #os.system('pip uninstall pyodbc')
