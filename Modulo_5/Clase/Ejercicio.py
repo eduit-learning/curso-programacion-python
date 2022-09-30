@@ -1,7 +1,5 @@
-import re
 import csv
 import os
-import time
 
 # El archivo ApplicationAuditTable.csv tiene texto separado por comas donde las columnas son:
 # PartitionKey,RowKey,Timestamp,ExecutionDate,ExecutionDate@type
