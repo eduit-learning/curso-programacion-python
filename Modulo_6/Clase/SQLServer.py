@@ -1,8 +1,7 @@
-import pyodbc
-import os
-
 os.system('cls')
 os.system('pip install pyodbc')
+import pyodbc
+import os
 os.system('cls')
 
 
