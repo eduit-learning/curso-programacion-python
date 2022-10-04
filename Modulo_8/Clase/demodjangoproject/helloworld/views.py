@@ -5,7 +5,7 @@ from django.template import loader
 
 # Create your views here.
 def index(request):
-    return HttpResponse("Hello world!")
+    return HttpResponse("Hello worldABC123!")
 
 def greetings(request):
     return HttpResponse("Hola, bienvenido a Django")

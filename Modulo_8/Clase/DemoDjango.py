@@ -1,7 +1,7 @@
 #1. Valida que en el entorno global tengas instalado el paquete "virtualenv". Puedes hacerlo con "pip list"
 #2. Si no tienes instalado el paquete "virtualenv" puedes instalar con "pip install virtualenv"
 #3. Crea un entorno virtual con el nombre "demo_django" con "py -m venv demo_django". Puede ser en el path de tu elección
-#4. Esto creará el dirctorio "[path seleccionado]\demo_flask". en este ejemplo:
+#4. Esto creará el dirctorio "[path seleccionado]\demo_django". en este ejemplo:
 # "C:\EduIT_Curso_Python\Modulo_8\Clase\demo_django"
 #5. Selecciona el interprete correcto en VS Code apuntando al vend creado y abre una consola nueva a partir de ese interprete para que active
 # el venv creado.
@@ -38,7 +38,7 @@ from . import views
 urlpatterns = [
     path('', views.index, name='index'),
 ]
-#21. Por último, asegurese que el archivo "urls.py" dentro de la carpeta "demodjangoproject" agregue la URL para la app
+#21. Por último, asegurese que el archivo "urls.py" dentro de la carpeta "demodjangoproject2" agregue la URL para la app
 #que acabamos de crear. El código al final del archivo de quedar algo similar a esto:
 from django.contrib import admin
 from django.urls import path, include

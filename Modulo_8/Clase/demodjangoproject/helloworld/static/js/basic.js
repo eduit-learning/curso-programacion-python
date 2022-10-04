@@ -1,1 +1,1 @@
-alert('Bienvenido a la primera pagina HTLM con Flask')
+alert('Bienvenido a la primera pagina HTLM con Django')
