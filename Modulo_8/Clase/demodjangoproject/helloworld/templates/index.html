@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{html_title}}</title>
+    <link rel="stylesheet" href="{% static 'estilos/basic.css' %}" />
+    <style type="text/css">
+        p {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Este mensaje viene de Python</h1>
+    <h2>Este es el subtítulo</h2>
+    <p>{{ html_user }}</h2>
+</body>
+<script src="{% static 'js/basic.js' %}"></script>
+
+</html>
