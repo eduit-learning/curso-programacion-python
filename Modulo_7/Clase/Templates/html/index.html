@@ -3,11 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>{{ html_title }}</title>
+    <title>{{html_title}}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilos/basic.css') }}" />
+    <style type="text/css">
+        p {
+            background-color: red;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>{{ html_title }}: Este mensaje viene de Python</h1>
+    <h1>Este mensaje viene de Python</h1>
+    <h2>Este es el subtítulo</h2>
+    <p>{{ html_user.name }}</h2>
 </body>
+<script src="{{ url_for('static', filename='js/basic.js') }}"></script>
 
 </html>

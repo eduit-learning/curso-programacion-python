@@ -26,7 +26,7 @@ class User:
         self.roleID = roleID
     
     def toJSON(self):
-        return json.dumps(self, default = lambda o: o.__dict__, sort_keys = True, indent = 4)
+        return json.dumps(self, default = lambda o: o.__dict__, sort_keys = False, indent = 4)
         
 
 class SQLOperations:
@@ -55,26 +55,37 @@ class SQLOperations:
         cursor.close()
         cnxn.close()
 
-#Crea una instancia dela clase Falsk que recibe como parámetro el paquete de la aplicación donde se está ejecutando
+#Crea una instancia de la clase Falsk que recibe como parámetro el paquete de la aplicación donde se está ejecutando
 #En este ejemplo el nombre del paquete es "DemoFlask" ya que es el nombre del archivo y __name__ contiene el valor
 #__main__ ya que lo estámos ejecutando en la "raíz" del paquete.
 app = Flask(__name__)
 
 @app.route('/') #Indica la ruta por la cuál accederemos a esta operación
 def hello_world():
-    return 'Hola, mundo!'
+    return 'Hola, mundo123!'
+
+def hello_world3():
+    return 'Hola, mundo1234!'
+
+#Este método debido a quew también apunta a la raíz es ignorado ya que previamente hay otro método que apunta también a la raíz
+#y Flask trabaja con el primero que encuentre
+@app.route('/h')
+def hello_world2():
+    return 'Hola, mundo1234! - ' + hello_world3()
 
 @app.route('/print-message')
 def print_message():
     message = request.args.get('message')
-    return f'Bienvenido a Flask: {message}'
+    message2 = request.args.get('message2')
+    message3 = request.args.get('message3')
+    return f'Bienvenido a Flask: {message} - {message2} - {message3}'
 
-@app.route('/greetings/<string:name>')
-def greetings(name):
-    return f'Hola {name}'
+@app.route('/greetings/<string:name>/<string:lastName>')
+def greetings(name:str, lastName:str):
+    return f'Hola {name} - {lastName}'
 
 @app.route('/print-age/<int:age>')
-def print_age(age):
+def print_age(age:int):
     print(type(age))
     return f'Tu edad es: {age} años'
 
@@ -104,12 +115,17 @@ def get_all_users():
     resultJson = f"[{','.join(result)}]"
     return resultJson
 
-@app.route("/html")
+@app.route("/post")
 def show_post():
     #El método "render_template" siempre buscará el path pasado como primer parámeto en la capreta "Templates"
-    return render_template("html/index.html", html_title='Esta es una página con Flask')
+    return render_template("html/index.html", html_title='Esta es una página con Flask', html_subtitle = 'Este es el subtítulo')
 
-#7. Flask viene con un servidor para probar las aplicaciones. Para lanzar la aplicación haciendo uso de este
+@app.route("/post2")
+def show_post2():
+    #El método "render_template" siempre buscará el path pasado como primer parámeto en la capreta "Templates"
+    return render_template("html/index.html", html_user = User('1','Pedro','qwe', 'qwe', 'qwe', 'qwe', 'qwe', 'qwe', '2'))
+
+#7. Flask viene con un servidor para probar las aplicaciones (jinja2). Para lanzar la aplicación haciendo uso de este
 # servidor, debes ejecutar el comando flask o bien python -m.
 #8. Para hacerlo debemos indicarle al servidor qué aplicación debe lanzar declarando
 # la variable de entorno FLASK_APP en el archivo "activate.ps1" si usas VS Code y en el archivo "activate.bat"
@@ -121,3 +137,5 @@ def show_post():
 # se encuentra el archivo a ejecutar
 #11. Si deseas activar el mono debug, debes agregar la variable de entorno set "FLASK_ENV=development" al archivo
 # activate.bat o $Env:FLASK_ENV="development" al arechivo activate.ps1
+
+#Escribir una operación que reciba como parámetro el ID de un usuario y muetre el detalle de ese usuario en una página HTML
